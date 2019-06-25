@@ -331,11 +331,11 @@ html {
 img, svg {
   max-width: 100%; }
 
-.container {
-  width: 88%;
-  max-width: 1080px;
-  margin: 0 auto;
-  position: relative; }
+/*.container {*/
+  /*width: 88%;*/
+  /*max-width: 1080px;*/
+  /*margin: 0 auto;*/
+  /*position: relative; }*/
 
 .row {
   display: block;
@@ -434,7 +434,7 @@ button, .button {
   color: #fec503;
   font-weight: 400;
   transition: 0.7s;
-  white-space: nowrap;
+  white-space: normal;
   cursor: pointer;
   background-color: transparent;
   border-radius: 30px;
@@ -923,6 +923,17 @@ select {
   font-size: 4em;
 }
 
+@media(max-width: 512px) {
+  .container {
+    max-
+  }
+  .hero__title {
+    color: inherit;
+    font-weight: 800;
+    font-family: Montserrat;
+    font-size: 2.3em;
+  }
+}
 .hero__text {
   /*opacity: 0.85;*/
   line-height: 1.7;
