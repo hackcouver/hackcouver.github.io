@@ -755,7 +755,7 @@ select {
 
 .navbar-evie__logo {
   font-size: 1.325rem;
-  transition: 0;
+  transition: 0s;
   color: #fff;
   text-decoration: none; }
 
@@ -919,18 +919,15 @@ select {
 .hero__title {
   color: inherit;
   font-weight: 800;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 4em;
 }
 
 @media(max-width: 512px) {
-  .container {
-    max-
-  }
   .hero__title {
     color: inherit;
     font-weight: 800;
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-size: 2.3em;
   }
 }
@@ -940,7 +937,7 @@ select {
   /*text-align: left;*/
   /*font-size: 1.1em;*/
   color: white;
-  font-family: "Montserrat";}
+  font-family: "Montserrat", sans-serif;}
 
 .hero .button {
   margin: 12pt 8pt; }
