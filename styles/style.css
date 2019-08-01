@@ -11,7 +11,11 @@ html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  /* 2 */
+
+  /* currently only supported in Chrome 61+ and Firefox 36+ */
+  scroll-behavior: smooth;
+}
 
 /* Sections
    ========================================================================== */
