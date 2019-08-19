@@ -16,12 +16,11 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
 
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel='stylesheet' href='styles/style.css' />
     <link rel='stylesheet' href='styles/splash-screen.css' />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,800,900|Raleway:300" rel="stylesheet">
@@ -34,7 +33,7 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false" id="closes-navbar">
                     <span class="sr-only">Toggle navigation</span>
 
                     <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
@@ -51,11 +50,12 @@
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#top">Home</a></li>
-                    <li><a href="#about">About</a></li>
+                    <!-- TODO: Fix this hackyness of clicking the button to collapse it.-->
+                    <li class="active"><a href="#top" onclick="$('#closes-navbar').click();">Home</a></li>
+                    <li><a href="#about" onclick="$('#closes-navbar').click();">About</a></li>
                     <!--<li><a href="#sponsors">Sponsors</a></li>-->
-                    <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#faq" onclick="$('#closes-navbar').click();">FAQ</a></li>
+                    <li><a href="#contact" onclick="$('#closes-navbar').click();">Contact</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
