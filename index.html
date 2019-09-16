@@ -37,6 +37,27 @@
                     <span class="sr-only">Toggle navigation</span>
 
                     <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+
+                    <script>
+                        const toggleButton = document.getElementById("closes-navbar");
+                        const toggleThreshold = 750;
+
+                        $(window).ready(function() {
+                            if ($(window).width() <= toggleThreshold) {
+                                toggleButton.setAttribute("data-toggle", "collapse");
+                            } else {
+                                toggleButton.removeAttribute("data-toggle");
+                            }
+                        });
+
+                        $(window).resize(function() {
+                            if ($(window).width() <= toggleThreshold) {
+                                toggleButton.setAttribute("data-toggle", "collapse");
+                            } else {
+                                toggleButton.removeAttribute("data-toggle");
+                            }
+                        });
+                    </script>
                 </button>
                 <a href="/"><img src="images/logo.png" height="50"></a>
             </div>
