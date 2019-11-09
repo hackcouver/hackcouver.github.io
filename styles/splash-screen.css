@@ -15,3 +15,7 @@ p, button, a {font-family: 'Noto Sans KR', sans-serif;}
 .big {
     font-size: 45px!important; /* should override other size styles */
 }
+
+.sponsors a:hover {
+	text-decoration: none;
+}
