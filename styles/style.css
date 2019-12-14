@@ -873,7 +873,7 @@ select {
 .hero {
   position: relative;
   width: 100%;
-  background-image: url("../images/background.png");
+  background-image: url("../images/HackBackground1.png");
   box-shadow: 0 4px 11px rgba(124, 146, 169, 0.5);
   background-size: cover;
   background-position: center center;
@@ -892,7 +892,7 @@ select {
   width: 100%;
   opacity: 0.80;
   z-index: 1;
-  background-color: #333;
+  background-color: #777;
 }
 
 .hero__overlay--gradient {
@@ -1101,7 +1101,7 @@ select {
   text-align: center; }
 
 .cta--reverse {
-  background: linear-gradient(to left, #fec503, #4641FF); }
+  background: linear-gradient(to left, #fec503, #F26522); }
 
 .cta--plain {
   background: #fec503; }
@@ -1453,7 +1453,7 @@ select {
 }
 
 .divider {
-  border-top: 5px solid #fec503;
+  border-top: 5px solid #F26522;
   margin-bottom: 64px;
   width: 50px;
 }
