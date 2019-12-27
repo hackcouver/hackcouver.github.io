@@ -3164,7 +3164,7 @@ h3 {
   /* line 59, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
   .compapy_info {
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 300px;
   }
 }
 
@@ -3235,7 +3235,7 @@ h3 {
   /* line 97, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
   .compapy_info .company_info h3 {
     font-size: 21px;
-    line-height: 36px;
+    /* line-height: 36px; */
   }
 }
 
