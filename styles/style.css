@@ -443,16 +443,16 @@ button, .button {
   display: inline-block;
   padding: 6pt 20pt;
   line-height: 1.7;
-  border: 1px solid #fec503;
-  color: #fec503;
+  border: 1px solid #F26522;
+  color: #F26522;
   font-weight: 400;
-  transition: 0.7s;
+  /* transition: 0.7s; */
   white-space: normal;
   cursor: pointer;
   background-color: transparent;
   border-radius: 30px;
   margin-bottom: 1.3em;
-  transition: 0.7s;
+  /* transition: 0.7s; */
   text-align: center;
   text-decoration: none; }
   button:hover, button:focus, .button:hover, .button:focus {
@@ -473,13 +473,13 @@ button, .button {
       color: #fff; } }
 
 .button__accent {
-  background-color: #06d19c;
-  border-color: #06d19c;
+  background-color: #F26522;
+  border-color: #F26522;
   color: #fff; }
   @media (min-width: 992px) {
     .button__accent:hover {
-      background-color: #05bd8d;
-      border-color: #05bd8d;
+      background-color: #F26522;
+      border-color: #F26522;
       color: #fff; } }
 
 .button__delete {
