@@ -16,11 +16,14 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
     <link rel='stylesheet' href='styles/style.css' />
     <link rel='stylesheet' href='styles/splash-screen.css' />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,800,900|Raleway:300" rel="stylesheet">
@@ -42,7 +45,7 @@
                         const toggleButton = document.getElementById("closes-navbar");
                         const toggleThreshold = 750;
 
-                        $(window).ready(function() {
+                        $(window).ready(function () {
                             if ($(window).width() <= toggleThreshold) {
                                 toggleButton.setAttribute("data-toggle", "collapse");
                             } else {
@@ -50,7 +53,7 @@
                             }
                         });
 
-                        $(window).resize(function() {
+                        $(window).resize(function () {
                             if ($(window).width() <= toggleThreshold) {
                                 toggleButton.setAttribute("data-toggle", "collapse");
                             } else {
@@ -96,7 +99,7 @@
                         <h2 class="hero__text">Vancouver’s First High School Business Hackathon</h2>
                         <h2 class="hero__text">Early 2020</h2>
                         <br />
-                        <!--<a target="_blank" href="http://go.vsb.bc.ca/schools/templeton/Registration/Pages/Donations.aspx" class="button button__accent">Applications are not yet open</a>-->
+                        <a class="button button__accent">Applications Opening Soon</a>
                     </div>
                 </div>
             </div>
@@ -125,15 +128,16 @@
                 <div class="col-sm-12">
                     <p class="body-copy" style="margin:auto">
                         Hackcouver 2020 is a hackathon for High School students oriented
-                        around business and technology. <br/>  <br/>Participants form teams of 4 or 5 and take on an assigned
+                        around business and technology. <br /> <br />Participants form teams of 4 or 5 and take on an
+                        assigned
                         business problem. They will be given 24 hours to create an innovative and technological solution
-                        to the problem. <br/><br/>
+                        to the problem. <br /><br />
 
                         During the event, participants will be given opportunities to network with
                         Vancouver's tech community, learn from experienced mentors, listen to guest speakers, and
                         achieve the best experience possible!
 
-                        <br/><br/>
+                        <br /><br />
 
                         We are a growing event and feedback is always appreciated!
 
@@ -144,26 +148,58 @@
                     </p>
                 </div>
             </div>
+        </div>        <hr />
+
+        <div class="container section">
+            <span id="about"></span>
+            <img src="images/Hackcouver Kickoff Photo 4.jpg" height="250">
+            <!-- <img src="images/Hackcouver Kickoff Photo.jpg" height="250"> -->
+            <div class="row center">
+                <h2 class="section-heading" style="margin:auto; text-align: center; padding-top: 30px;">Apply to be a Student Ambassador! <br/><br/></h2>
+                <!-- <hr class="divider" style="margin-bottom: 30px;"> -->
+                <div class="col-sm-12">
+                    <p class="body-copy" style="margin:auto">
+                        Are you looking to gain some valuable professional and leadership experience? <br/><br/>If so, becoming a Hackcouver Student Ambassador is for you! Hackcouver’s new Student Ambassador Program is a great opportunity for aspiring business and technology students where you will be given the opportunity to expand your communication skills, build your resume, work with a diverse team, and help contribute to Business and technology education in Vancouver. 
+                        <br/><br/>
+                        We are now accepting applications for our Student Ambassador Program!
+                        <br/> <br/>
+                        <strong>Requirements:</strong><br/><br/>
+                            Be highly motivated <br/>
+                            Work well in a team environment <br/>
+                            Be involved within you school <br/>
+                            Be in Grade 8-12 <br/>
+                            Willing to learn and develop your professional skills. <br/>
+                        <br/>
+                        <a target="_blank" href="https://form.jotform.com/193607841983268" class="button button__accent">Apply Now!</a>
+                        <p>Deadline: January 10, 2020</p>
+
+                    </p>
+                </div>
+            </div>
         </div>
-    <h2 class="section-heading" style="margin:auto; text-align: center; padding-top: 30px;">Events</h2>
-
-
-<div class="timeline">
-  <div class="container-timeline left">
-    <div class="content">
-      <a href="https://www.facebook.com/events/559873928183347/"><h2>Hackcouver x QUP Kickoff Event</h2></a>
-      <h4>December 2020</h4>
-      <p>Hackcouver welcomes aspiring highschool coders and entrepreneurs in the lower mainland interested in understanding how technical skills and building business acumen can prepare them for the workforce. </p>
-    </div>
-  </div>
-  <div class="container-timeline right">
-    <div class="content">
-      <h2>Hackcouver 2020</h2>
-      <h4>March 2020</h4>
-      <p>This is Hackcouver's flagship event: Hackcouver 2020, a hackathon for high school students oriented around business and technology.</p>
-    </div>
-  </div>
-</div>
+        <hr />
+        <h2 class="section-heading" style="margin:auto; text-align: center; padding-top: 30px;">Events</h2>
+        <div class="timeline">
+            <div class="container-timeline left">
+                <div class="content">
+                    <a href="https://www.facebook.com/events/559873928183347/">
+                        <h2>Hackcouver x QUP Kickoff Event</h2>
+                    </a>
+                    <h4>December 2020</h4>
+                    <p>Hackcouver welcomes aspiring highschool coders and entrepreneurs in the lower mainland interested
+                        in understanding how technical skills and building business acumen can prepare them for the
+                        workforce. </p>
+                </div>
+            </div>
+            <div class="container-timeline right">
+                <div class="content">
+                    <h2>Hackcouver 2020</h2>
+                    <h4>March 2020</h4>
+                    <p>This is Hackcouver's flagship event: Hackcouver 2020, a hackathon for high school students
+                        oriented around business and technology.</p>
+                </div>
+            </div>
+        </div>
 
         <div class="faq section">
             <span id="faq"></span>
@@ -234,32 +270,32 @@
                         </a>
 
                         <a href="https://www.axiomzen.co/" target="_blank">
-                            <img src="images/axiom.svg"  height="60"class="sponsor-image">
+                            <img src="images/axiom.svg" height="60" class="sponsor-image">
                         </a>
 
                         <a href="https://www.dapperlabs.com/" target="_blank">
-                            <img src="images/dapper_logo.png"  height="65" class="sponsor-image">
+                            <img src="images/dapper_logo.png" height="65" class="sponsor-image">
                         </a>
 
                         <a href="https://www.gscloudsolutions.com/" target="_blank">
-                            <img src="images/GS-logo-land.jpg"  height="75" class="sponsor-image">
+                            <img src="images/GS-logo-land.jpg" height="75" class="sponsor-image">
                         </a>
 
                         <a href="https://www.lighthouselabs.ca/" target="_blank">
-                            <img src="images/Lighthouse_Labs.png"  height="100" class="sponsor-image">
-                        </a> 
+                            <img src="images/Lighthouse_Labs.png" height="100" class="sponsor-image">
+                        </a>
 
                         <a href="https://balsamiq.com/" target="_blank">
-                            <img src="images/balsamiq sponsor.png"  height="90" class="sponsor-image">
-                        </a> 
-                        
+                            <img src="images/balsamiq sponsor.png" height="90" class="sponsor-image">
+                        </a>
+
                         <a href="https://www.voiceflow.com/" target="_blank">
-                            <img src="images/black voiceflow-logo.png"  height="70" class="sponsor-image">
+                            <img src="images/black voiceflow-logo.png" height="70" class="sponsor-image">
                         </a>
                     </p>
                 </div>
             </div>
-    </div>
+        </div>
         <hr />
 
         <div class="container section">
@@ -271,12 +307,12 @@
                 <div class="col-sm-12">
                     <p class="body-copy sponsors" style="margin:auto">
                         <a href="https://www.hackhub.com/" target="_blank">
-                            <img src="images/hackhub_logo.png"  height="80" class="sponsor-image">
+                            <img src="images/hackhub_logo.png" height="80" class="sponsor-image">
                         </a>
                     </p>
                 </div>
             </div>
-    </div>
+        </div>
 
     </div>
     <!-- Call To Action -->
