@@ -161,3 +161,14 @@ p, button, a {font-family: 'Noto Sans KR', sans-serif;}
   left: 0%;
   }
 }
+
+.ambassador__link {
+  color: #fec503;
+  padding-bottom: 1pt;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+img {
+  text-align: center;
+}
