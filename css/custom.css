@@ -21,3 +21,8 @@ h1 {
 .text {
     /* margin-top: 200px; */
 }
+
+.sponsors li {
+    text-align: center;
+    margin: 50px 0;
+}
