@@ -24,9 +24,23 @@ h1 {
 
 .sponsors li {
     text-align: center;
-    margin: 50px 0;
+    display: inline-block;
+    margin: 20px 10px 80px 10px;
 }
 
-h3.display-3 {
-    font-family: "Poppins", sans-serif !important;
+ul.sponsors img {
+    height: 50px;
 }
+
+h3.display-3.sponsors-header {
+    font-family: "Poppins", sans-serif !important;
+    text-align: center;
+    font-size: 40px;
+    color: #001D38;
+    font-weight: bold;
+}
+
+h3.display-3.sponsors-header > img {
+    height: 80px;
+}
+
