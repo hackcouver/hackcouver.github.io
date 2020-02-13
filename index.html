@@ -31,6 +31,7 @@
 
     <!-- Our own CSS -->
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/pageclip.css" media="screen">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -630,17 +631,17 @@
                                 <div class="socail_links">
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <a href="https://www.facebook.com/hackcouver/">
                                                 <i class="ti-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
-                                                <i class="ti-twitter-alt"></i>
+                                            <a href="mailto:info@hackcouver.com">
+                                                <i class="fa fa-envelope"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="https://www.instagram.com/hackcouver/">
                                                 <i class="fa fa-instagram"></i>
                                             </a>
                                         </li>
@@ -670,7 +671,7 @@
                                         Useful Links
                                 </h3>
                                 <ul>
-                                    <li><a href="index.html">home</a></li>
+                                    <li><a href="index.html">Home</a></li>
                                     <li><a href="">About</a></li>
                                     <li><a href="">FAQ</a></li>
                                     <li><a href="">Contact</a></li>
@@ -687,7 +688,20 @@
                                             <button type="submit">Subscribe</button>
                                         </form>
                                         <!-- <p class="newsletter_text">Esteem spirit temper too say adieus who direct esteem esteems luckily.</p> -->
-                                    </div>
+                                </div>
+                            <form action="https://send.pageclip.co/TVAXFrO9Dj0Eni7NTYgM7rIOGcyoFgSN/contact-form" class="pageclip-form" method="post">
+                                <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+
+                                <!-- It looks like you are creating a contact form. These email and subject fields are special -->
+                                <!-- See https://pageclip.co/docs#special-fields for more info -->
+                                <input type="email" name="email" value="roscoe@example.com" />
+                                <input type="text" name="subject" value="A contact subject" />
+
+                                <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+                                <button type="submit" class="pageclip-form__submit">
+                                    <span>Send</span>
+                                </button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -736,6 +750,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 
 </html>
