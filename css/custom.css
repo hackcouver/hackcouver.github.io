@@ -1,3 +1,24 @@
+/*F1592A*/
+.compapy_info .company_info h3 {
+    color: black;
+}
+
+.header-area .main-header-area .main-menu ul li a {
+    color: #aaa !important;
+
+}
+
+.header-area .main-header-area {
+    background-image: linear-gradient(#3335, transparent);
+}
+
+.slider_bg_1 {
+    background-image: url("../img/banner/main_banner.jpg") !important;
+    height: 100vh !important;
+    background-position: bottom !important;
+    background-size: 100vw !important;
+}
+
 h1 {
     font-size: 5em;
     font-weight: 800;
@@ -25,7 +46,7 @@ h1 {
 .sponsors li {
     text-align: center;
     display: inline-block;
-    margin: 20px 10px 80px 10px;
+    margin: 15px 10px 110px 10px;
 }
 
 ul.sponsors img {
