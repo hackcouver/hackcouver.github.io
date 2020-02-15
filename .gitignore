@@ -1,5 +1,8 @@
-.idea/
 .DS_STORE
+<<<<<<< HEAD
 
 !.idea/
 .idea/workspace.xml
+=======
+.idea/
+>>>>>>> new-site
