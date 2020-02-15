@@ -1,6 +1,28 @@
 /*F1592A*/
-.compapy_info .company_info h3 {
-    color: black;
+.compapy_info .company_info.text-light h3 {
+    color: #f8f9fa;
+}
+
+.compapy_info .company_info.text-light > p {
+    color: #ccc;
+}
+
+.compapy_info .company_info.text-light a {
+    color: #aaa;
+}
+
+.compapy_info .company_info  a:hover {
+    color: #bbb;
+    text-decoration: underline;
+}
+
+.case_bg_1 {
+    background-color: #F1592A;
+}
+
+.orange {
+    background-color: #F1592A;
+    /*color: white !important;*/
 }
 
 .header-area .main-header-area .main-menu ul li a {
