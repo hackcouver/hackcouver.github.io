@@ -25,6 +25,10 @@
     /*color: white !important;*/
 }
 
+.subheading {
+    background-color: transparent !important;
+}
+
 .header-area .main-header-area .main-menu ul li a {
     color: #aaa !important;
 
