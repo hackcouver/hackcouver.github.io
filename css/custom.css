@@ -26,11 +26,9 @@
 }
 
 .card > img {
-    image-orientation: from-image;
-}
-
-img {
-    background-image: url("/img/headshots/preston.JPG");
+    max-height: 20rem;
+    object-fit: cover;
+    border-radius: 3%;
 }
 
 .subheading {
