@@ -49,7 +49,8 @@
                 for (var t = e.elements, s = {}, n = 0; n < t.length; n++) {
                     var r = t[n];
                     r.name.trim() &&
-                        (("radio" !== r.type && "checkbox" !== r.type) || r.checked) && (s[r.name] = r.value);
+                        (("radio" !== r.type && "checkbox" !== r.type) || r.checked) &&
+                        (s[r.name] = r.value);
                 }
                 return s;
             },
