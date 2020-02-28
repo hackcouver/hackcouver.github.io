@@ -1,9 +1,0 @@
-language: node_js
-node_js:
-- 7
-
-install:
-  - npm install -g prettier
-
-# Add CSS later too
-script: prettier **/*.html --check
