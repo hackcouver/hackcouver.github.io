@@ -1,6 +1,30 @@
+@font-face {
+    font-family: futura;
+    src: url("futura/Futura-Medium.woff") format('woff'),
+        url("futura/futura.woff2") format('woff2'),
+        url('futura/futur.ttf') format('truetype');
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    
+
+}
+
+html {
+    background-color: #F1592A;
+    color: #ccc;
+}
+
+.case_study_area .single_study .subheading p {
+    color: #ccc;
+}
+
+.compapy_info .company_info p {
+    color: #ccc;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: futura;
 }
 
 /*F1592A*/
@@ -27,13 +51,25 @@
 
 .orange {
     background-color: #F1592A;
-    /*color: white !important;*/
+    color: #ccc;
 }
 
 .card > img {
-    max-height: 20rem;
+    height: 20rem;
     object-fit: cover;
     border-radius: 3%;
+}
+
+.card-title {
+    color: #f8f9fa!important;
+}
+
+.card-subtitle.text-muted {
+    color: #ddd !important;
+}
+
+.card-text {
+    color: #ccc;
 }
 
 .subheading {
@@ -65,9 +101,23 @@ h1 {
     font-weight: 800;
 }
 
+.card {
+    background-color: #F1592A;
+    color: #ccc;
+}
+
 .page-heading {
     font-size: 3em!important;
     font-weight: 800!important;
+}
+
+.faq_ask > h5 {
+    color: #f8f9fa;
+}
+
+.faq_ask > p {
+    color: #ccc;
+    padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 600px) {
