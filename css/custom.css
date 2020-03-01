@@ -174,3 +174,14 @@ h3.display-3.sponsors-header > img {
     height: 80px;
 }
 
+.footer_widget > p, .socail_links i, .footer_widget a{
+    color: #ccc !important;
+}
+
+.socail_links a, .newsletter_form > input {
+    border-color: #ccc !important;
+}
+
+.socail_links a:hover {
+    background: none;
+}
