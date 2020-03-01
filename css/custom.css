@@ -13,10 +13,21 @@
 html {
     background-color: #F1592A;
     color: #ccc;
+    overflow-x: hidden;
 }
 
 .case_study_area .single_study .subheading p {
     color: #ccc;
+}
+
+.case_study_area, .features_area, .accordion_area {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 0;
+}
+
+.meet-our-team {
+    padding-bottom: 3rem;
 }
 
 .compapy_info .company_info p {
@@ -136,12 +147,19 @@ h1 {
 
 .sponsors li {
     text-align: center;
-    display: inline-block;
-    margin: 15px 10px 110px 10px;
+    display: block;
+    margin: 40px 40px 40px 40px;
 }
 
-ul.sponsors img {
-    height: 50px;
+.sponsors img {
+    height: 6rem;
+    filter: grayscale(100%);
+    transition: filter 0.5s linear;
+}
+
+.sponsors img:hover {
+    height: 6rem;
+    filter: grayscale(0%);
 }
 
 h3.display-3.sponsors-header {
