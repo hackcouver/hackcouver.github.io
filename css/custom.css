@@ -185,3 +185,8 @@ h3.display-3.sponsors-header > img {
 .socail_links a:hover {
     background: none;
 }
+
+/*temporary*/
+p.card-text {
+    display: none;
+}
