@@ -1,26 +1,23 @@
 @font-face {
     font-family: futura;
-    src: url("futura/Futura-Medium.woff") format('woff'),
-        url("futura/futura.woff2") format('woff2'),
-        url('futura/futur.ttf') format('truetype');
-}
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-
+    src: url("futura/Futura-Medium.woff") format("woff"), url("futura/futura.woff2") format("woff2"),
+        url("futura/futur.ttf") format("truetype");
 }
 
 html {
-    background-color: #F1592A;
+    background-color: #f1592a;
     color: #ccc;
     overflow-x: hidden;
+    width: 100vw;
 }
 
 .case_study_area .single_study .subheading p {
     color: #ccc;
 }
 
-.case_study_area, .features_area, .accordion_area {
+.case_study_area,
+.features_area,
+.accordion_area {
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin: 0;
@@ -34,7 +31,13 @@ html {
     color: #ccc;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     font-family: futura;
 }
 
@@ -51,17 +54,17 @@ h1, h2, h3, h4, h5, h6, p {
     color: #aaa;
 }
 
-.compapy_info .company_info  a:hover {
+.compapy_info .company_info a:hover {
     color: #bbb;
     text-decoration: underline;
 }
 
 .case_bg_1 {
-    background-color: #F1592A;
+    background-color: #f1592a;
 }
 
 .orange {
-    background-color: #F1592A;
+    background-color: #f1592a;
     color: #ccc;
 }
 
@@ -72,7 +75,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .card-title {
-    color: #f8f9fa!important;
+    color: #f8f9fa !important;
 }
 
 .card-subtitle.text-muted {
@@ -93,7 +96,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .header-area .main-header-area .main-menu ul li a {
     color: #aaa !important;
-
 }
 
 .header-area .main-header-area {
@@ -113,13 +115,13 @@ h1 {
 }
 
 .card {
-    background-color: #F1592A;
+    background-color: #f1592a;
     color: #ccc;
 }
 
 .page-heading {
-    font-size: 3em!important;
-    font-weight: 800!important;
+    font-size: 3em !important;
+    font-weight: 800 !important;
 }
 
 .faq_ask > h5 {
@@ -137,9 +139,9 @@ h1 {
     }
 
     .page-heading {
-        font-size: 2.5em!important;
+        font-size: 2.5em !important;
     }
-  }
+}
 
 .text {
     /* margin-top: 200px; */
@@ -166,7 +168,7 @@ h3.display-3.sponsors-header {
     font-family: "Poppins", sans-serif !important;
     text-align: center;
     font-size: 40px;
-    color: #001D38;
+    color: #001d38;
     font-weight: bold;
 }
 
@@ -174,11 +176,14 @@ h3.display-3.sponsors-header > img {
     height: 80px;
 }
 
-.footer_widget > p, .socail_links i, .footer_widget a{
+.footer_widget > p,
+.socail_links i,
+.footer_widget a {
     color: #ccc !important;
 }
 
-.socail_links a, .newsletter_form > input {
+.socail_links a,
+.newsletter_form > input {
     border-color: #ccc !important;
 }
 
@@ -189,4 +194,33 @@ h3.display-3.sponsors-header > img {
 /*temporary*/
 p.card-text {
     display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    html, body {
+        background-color: #f1592a;
+        color: #ccc;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 100vw;
+    }
+
+    .slider_bg_1 {
+        background-image: url("../img/banner/main_banner.jpg") !important;
+        height: 100vh !important;
+        background-position: top !important;
+        /*background-size: 100vh !important;*/
+        background-size: cover !important;
+    }
+
+    ul.centering > li {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    ul.centering img {
+        height: 70px;
+    }
 }
