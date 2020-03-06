@@ -11,6 +11,10 @@ html {
     width: 100vw;
 }
 
+.slicknav_menu .slicknav_icon-bar {
+    background-color: #f1592a !important;
+}
+
 .case_study_area .single_study .subheading p {
     color: #ccc;
 }
