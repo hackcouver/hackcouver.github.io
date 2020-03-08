@@ -181,7 +181,7 @@ p {
     background-image: url("../img/banner/wordless_banner.jpg") !important;
     height: 100vh !important;
     background-position: center !important;
-    background-size: 100vw !important;
+    /*background-size: 100vw !important;*/
 }
 
 h1 {
@@ -281,12 +281,21 @@ p.card-text {
         width: 100vw;
     }
 
-    .slider_bg_1 {
-        background-image: url("../img/banner/main_banner.jpg") !important;
-        height: 100vh !important;
-        background-position: top !important;
-        /*background-size: 100vh !important;*/
-        background-size: cover !important;
+
+    /*.slider_bg_1 {*/
+    /*    background-image: url("../img/banner/wordless_banner.jpg") !important;*/
+    /*    height: 100vh !important;*/
+    /*    background-position: center !important;*/
+    /*    !*background-size: 100vw !important;*!*/
+    /*}*/
+
+    h1.display-1 {
+        font-size: 2.5rem;
+    }
+
+    h1.display-1 > .glow {
+        margin-top: 1rem;
+        /*width: 80vw;*/
     }
 
     ul.centering > li {
