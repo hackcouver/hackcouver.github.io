@@ -11,6 +11,35 @@ html {
     width: 100vw;
 }
 
+<<<<<<< HEAD
+=======
+/*.rotate {*/
+/*    transform: rotate(-5deg);*/
+/*}*/
+
+.main-title > .display-1, .main-title > .subheading {
+    color: #f8f9fa;
+}
+
+.del1 {
+    animation-delay: 0.5s;
+}
+
+.del2 {
+    animation-delay: 1s;
+}
+
+.main-title > .display-1 {
+    font-size: 6rem;
+    /*border-bottom: #ebeb9b 1px solid;*/
+}
+
+p.subheading {
+    font-size: 2rem;
+    color: #dadada;
+}
+
+>>>>>>> 1e2b614... Animations
 .slicknav_menu .slicknav_icon-bar {
     background-color: #f1592a !important;
 }
