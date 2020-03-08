@@ -180,7 +180,7 @@ p {
 .slider_bg_1 {
     background-image: url("../img/banner/wordless_banner.jpg") !important;
     height: 100vh !important;
-    background-position: bottom !important;
+    background-position: center !important;
     background-size: 100vw !important;
 }
 
