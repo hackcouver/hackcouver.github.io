@@ -11,20 +11,30 @@ html {
     width: 100vw;
 }
 
-.text-light > .display-1, .text-light > .subheading {
+/*.rotate {*/
+/*    transform: rotate(-5deg);*/
+/*}*/
+
+.main-title > .display-1, .main-title > .subheading {
     color: #f8f9fa;
 }
 
-.text-light > .display-1 {
+.del1 {
+    animation-delay: 0.5s;
+}
+
+.del2 {
+    animation-delay: 1s;
+}
+
+.main-title > .display-1 {
     font-size: 6rem;
+    /*border-bottom: #ebeb9b 1px solid;*/
 }
 
 p.subheading {
     font-size: 2rem;
-}
-
-a.typeform-share {
-    font-family: futura;
+    color: #dadada;
 }
 
 .slicknav_menu .slicknav_icon-bar {
