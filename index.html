@@ -110,11 +110,51 @@
             <div class="poly_img">
                 <!-- <img src="img/ilstrator/poly.png" alt=""> -->
             </div>
-            <div class="single_slider  d-flex align-items-center slider_bg_1">
+            <div id="main_banner" class="single_slider d-flex align-items-center slider_bg_1">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-10 offset-xl-1">
-                            <div class="slider_text text-center">
+                            <div class="slider_text text-center main-title">
+                                <div class="text-light">
+                                    <h1 class="display-1 text-light animated fadeIn del1">
+                                        HACKCOUVER 2020
+                                        <div class="glow animated infinite pulse"></div>
+                                    </h1>
+                                    <p class="subheading text-light animated fadeIn del2">
+                                        Join the movement. #hackthecity
+                                    </p>
+                                </div>
+                                <a
+                                    class="typeform-share button mt-3 animated fadeIn del2"
+                                    href="https://kevinlu1248.typeform.com/to/OeGl7o"
+                                    data-mode="popup"
+                                    style="display:inline-block;text-decoration:none;background-color:#E26D5A;color:white;cursor:pointer;font-family:futura,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
+                                    data-submit-close-delay="0"
+                                    target="_blank"
+                                    >Apply now!
+                                </a>
+                                <script>
+                                    (function() {
+                                        var qs,
+                                            js,
+                                            q,
+                                            s,
+                                            d = document,
+                                            gi = d.getElementById,
+                                            ce = d.createElement,
+                                            gt = d.getElementsByTagName,
+                                            id = "typef_orm_share",
+                                            b = "https://embed.typeform.com/";
+                                        if (!gi.call(d, id)) {
+                                            js = ce.call(d, "script");
+                                            js.id = id;
+                                            js.src = b + "embed.js";
+                                            q = gt.call(d, "script")[0];
+                                            q.parentNode.insertBefore(js, q);
+                                        }
+                                    })();
+                                </script>
+
                                 <!--                            TODO: Reformat this somehow...-->
                                 <!--                            <div class="text">-->
                                 <!--                                <img src="img/logo.png" alt="" height="100">-->
@@ -1259,6 +1299,14 @@
 
         <script src="js/main.js"></script>
         <script src="js/custom.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"></script>
+        <script>
+            // not working yet
+            bubbly({
+                canvas: document.querySelector("#main_banner")
+            });
+        </script>
 
         <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
     </body>

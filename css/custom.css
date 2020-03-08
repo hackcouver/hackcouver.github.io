@@ -11,6 +11,58 @@ html {
     width: 100vw;
 }
 
+/*.rotate {*/
+/*    transform: rotate(-5deg);*/
+/*}#fde895*/
+
+.glow {
+    width: 100%;
+    height: 0;
+    margin-bottom: 2rem;
+    font-size: 80px;
+    box-shadow: 0 0 5px 5px #fde895dd;
+    border-radius: 5rem;
+    -webkit-animation: glow 3s ease-in-out infinite alternate;
+    -moz-animation: glow 3s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from { box-shadow: 0 0 5px 5px #fde895dd;}
+    to { box-shadow: 0 0 8px 8px #fde895dd; }
+}
+
+/*@-webkit-keyframes glow {*/
+/*    from {*/
+/*        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;*/
+/*    }*/
+/*    to {*/
+/*        box-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;*/
+/*    }*/
+/*}*/
+
+.main-title > .display-1, .main-title > .subheading {
+    color: #f8f9fa;
+}
+
+.del1 {
+    animation-delay: 0.5s;
+}
+
+.del2 {
+    animation-delay: 1s;
+}
+
+.main-title > .display-1 {
+    font-size: 6rem;
+    /*border-bottom: #ebeb9b 1px solid;*/
+}
+
+p.subheading {
+    font-size: 2rem;
+    color: #dadada;
+}
+
 .slicknav_menu .slicknav_icon-bar {
     background-color: #f1592a !important;
 }
@@ -126,7 +178,7 @@ p {
 }
 
 .slider_bg_1 {
-    background-image: url("../img/banner/main_banner.jpg") !important;
+    background-image: url("../img/banner/wordless_banner.jpg") !important;
     height: 100vh !important;
     background-position: bottom !important;
     background-size: 100vw !important;
