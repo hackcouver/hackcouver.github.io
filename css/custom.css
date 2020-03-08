@@ -24,9 +24,14 @@ html {
     font-size: 80px;
     box-shadow: 0 0 5px 5px #fde895dd;
     border-radius: 5rem;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    -webkit-animation: glow 3s ease-in-out infinite alternate;
+    -moz-animation: glow 3s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from { box-shadow: 0 0 5px 5px #fde895dd;}
+    to { box-shadow: 0 0 8px 8px #fde895dd; }
 }
 
 /*@-webkit-keyframes glow {*/
