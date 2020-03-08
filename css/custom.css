@@ -11,6 +11,22 @@ html {
     width: 100vw;
 }
 
+.text-light > .display-1, .text-light > .subheading {
+    color: #f8f9fa;
+}
+
+.text-light > .display-1 {
+    font-size: 6rem;
+}
+
+p.subheading {
+    font-size: 2rem;
+}
+
+a.typeform-share {
+    font-family: futura;
+}
+
 .slicknav_menu .slicknav_icon-bar {
     background-color: #f1592a !important;
 }
@@ -146,10 +162,12 @@ p {
 }
 
 .slider_bg_1 {
-    background-image: url("../img/banner/main_banner.jpg") !important;
+    background-image: url("../img/banner/wordless_banner.jpg") !important;
+    /*background-image: url("../img/banner/main_banner.jpg") !important;*/
     height: 100vh !important;
-    background-position: bottom !important;
+    background-position: center !important;
     background-size: 100vw !important;
+    background-attachment: fixed;
 }
 
 h1 {
