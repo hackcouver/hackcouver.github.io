@@ -6,7 +6,7 @@
 
 html {
     background-color: #f1592a;
-    color: #ccc;
+    color: #dadada;
     overflow-x: hidden;
     width: 100vw;
 }
@@ -16,7 +16,7 @@ html {
 }
 
 .case_study_area .single_study .subheading p {
-    color: #ccc;
+    color: #dadada;
 }
 
 .case_study_area,
@@ -27,12 +27,31 @@ html {
     margin: 0;
 }
 
+#mirage-come-back {
+    background-image: url("../img/svg_icon/mirage-come-back-later.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mirage-fatal-error {
+    background-image: url("../img/svg_icon/mirage-fatal-error.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#team-photo {
+    background-image: url("../img/team_photo-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 .meet-our-team {
     padding-bottom: 3rem;
 }
 
 .compapy_info .company_info p {
-    color: #ccc;
+    color: #dadada;
 }
 
 h1,
@@ -51,7 +70,7 @@ p {
 }
 
 .compapy_info .company_info.text-light > p {
-    color: #ccc;
+    color: #dadada;
 }
 
 .compapy_info .company_info.text-light a {
@@ -69,7 +88,7 @@ p {
 
 .orange {
     background-color: #f1592a;
-    color: #ccc;
+    color: #dadada;
 }
 
 .card > img {
@@ -83,11 +102,11 @@ p {
 }
 
 .card-subtitle.text-muted {
-    color: #ddd !important;
+    color: #dadada !important;
 }
 
 .card-text {
-    color: #ccc;
+    color: #dadada;
 }
 
 .subheading {
@@ -120,7 +139,7 @@ h1 {
 
 .card {
     background-color: #f1592a;
-    color: #ccc;
+    color: #dadada;
 }
 
 .page-heading {
@@ -133,7 +152,7 @@ h1 {
 }
 
 .faq_ask > p {
-    color: #ccc;
+    color: #dadada;
     padding-bottom: 20px;
 }
 
@@ -183,12 +202,12 @@ h3.display-3.sponsors-header > img {
 .footer_widget > p,
 .socail_links i,
 .footer_widget a {
-    color: #ccc !important;
+    color: #dadada !important;
 }
 
 .socail_links a,
 .newsletter_form > input {
-    border-color: #ccc !important;
+    border-color: #dadada !important;
 }
 
 .socail_links a:hover {
@@ -204,7 +223,7 @@ p.card-text {
     /* For mobile phones: */
     html, body {
         background-color: #f1592a;
-        color: #ccc;
+        color: #dadada;
         overflow-x: hidden;
         overflow-y: scroll;
         width: 100vw;
