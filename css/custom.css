@@ -46,6 +46,26 @@ html {
     background-size: contain;
 }
 
+#venue > .container > .row {
+    height: 15rem;
+}
+
+.venue-photo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.interior {
+    background-image: url("../img/venue.jpg");
+}
+
+.exterior {
+    background-image: url("../img/sauder.jpg");
+}
+
 .meet-our-team {
     padding-bottom: 3rem;
 }
@@ -245,5 +265,17 @@ p.card-text {
 
     ul.centering img {
         height: 70px;
+    }
+
+    #venue > .container > .row {
+        height: 50rem;
+    }
+
+    #venue > .venue-text {
+        height: 5rem;
+    }
+
+    #team {
+        padding-top: 0;
     }
 }
