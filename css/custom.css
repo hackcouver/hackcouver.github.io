@@ -11,8 +11,6 @@ html {
     width: 100vw;
 }
 
-<<<<<<< HEAD
-=======
 /*.rotate {*/
 /*    transform: rotate(-5deg);*/
 /*}#fde895*/
@@ -65,7 +63,6 @@ p.subheading {
     color: #dadada;
 }
 
->>>>>>> 1e2b614... Animations
 .slicknav_menu .slicknav_icon-bar {
     background-color: #f1592a !important;
 }
@@ -181,7 +178,7 @@ p {
 }
 
 .slider_bg_1 {
-    background-image: url("../img/banner/main_banner.jpg") !important;
+    background-image: url("../img/banner/wordless_banner.jpg") !important;
     height: 100vh !important;
     background-position: bottom !important;
     background-size: 100vw !important;
