@@ -1401,7 +1401,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 13, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_slider.scss */
   .slider_area .single_slider {
-    height: 500px;
+    /* height: 500px; */
   }
 }
 
