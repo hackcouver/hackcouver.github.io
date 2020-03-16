@@ -210,6 +210,21 @@ h1 {
     /* margin-top: 200px; */
 }
 
+#venue {
+    max-width: none;
+    height: auto;
+}
+
+#sauder {
+    background-image: url("../images/sauder.jpg");
+    background-size: cover;
+}
+
+#classroom {
+    background-image: url("../images/classroom.jpg");
+    background-size: cover;
+}
+
 .sponsors li {
     text-align: center;
     display: block;
@@ -288,5 +303,10 @@ p.card-text {
 
     .del1 {
         font-size: 3em;
+    }
+
+    #classroom, #sauder {
+        height: 10rem;
+        margin: 0rem 2rem 2rem 2rem;
     }
 }
