@@ -1,2 +1,2 @@
-# hackcouver.github.io
-New website for Hackcouver.
+# Hackcouver
+Hackcouver's website. 
