@@ -11,10 +11,6 @@ html {
     width: 100vw;
 }
 
-/*.rotate {*/
-/*    transform: rotate(-5deg);*/
-/*}#fde895*/
-
 .glow {
     width: 100%;
     height: 0;
@@ -32,20 +28,12 @@ html {
     to { box-shadow: 0 0 8px 8px #fde895dd; }
 }
 
-/*@-webkit-keyframes glow {*/
-/*    from {*/
-/*        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;*/
-/*    }*/
-/*    to {*/
-/*        box-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;*/
-/*    }*/
-/*}*/
-
 .main-title > .display-1, .main-title > .subheading {
     color: #f8f9fa;
 }
 
 .del1 {
+  font-weight: 800;
     animation-delay: 0.5s;
 }
 
@@ -55,7 +43,7 @@ html {
 
 .main-title > .display-1 {
     font-size: 6rem;
-    /*border-bottom: #ebeb9b 1px solid;*/
+    text-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
 }
 
 p.subheading {
@@ -113,7 +101,7 @@ h4,
 h5,
 h6,
 p {
-    font-family: futura;
+    font-family: futura, sans-serif;
 }
 
 /*F1592A*/
@@ -178,10 +166,10 @@ p {
 }
 
 .slider_bg_1 {
-    background-image: url("../img/banner/wordless_banner.jpg") !important;
-    height: 100vh !important;
-    background-position: center !important;
-    background-size: 100vw !important;
+    background-image: url("../img/banner/wordless_banner.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: 100vw;
 }
 
 h1 {
@@ -282,11 +270,10 @@ p.card-text {
     }
 
     .slider_bg_1 {
-        background-image: url("../img/banner/main_banner.jpg") !important;
-        height: 100vh !important;
-        background-position: top !important;
-        /*background-size: 100vh !important;*/
-        background-size: cover !important;
+        background-image: url("../img/banner/wordless_banner.jpg");
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
     }
 
     ul.centering > li {
@@ -297,5 +284,9 @@ p.card-text {
 
     ul.centering img {
         height: 70px;
+    }
+
+    .del1 {
+        font-size: 3em;
     }
 }
