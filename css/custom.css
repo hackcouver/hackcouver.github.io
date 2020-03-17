@@ -169,6 +169,7 @@ p {
     background-image: url("../img/banner/wordless_banner.jpg");
     height: 100vh;
     background-position: center;
+    background-attachment: fixed;
     background-size: 100vw;
 }
 
@@ -208,6 +209,21 @@ h1 {
 
 .text {
     /* margin-top: 200px; */
+}
+
+#venue {
+    max-width: none;
+    height: auto;
+}
+
+#sauder {
+    background-image: url("../images/sauder.jpg");
+    background-size: cover;
+}
+
+#classroom {
+    background-image: url("../images/classroom.jpg");
+    background-size: cover;
 }
 
 .sponsors li {
@@ -288,5 +304,10 @@ p.card-text {
 
     .del1 {
         font-size: 3em;
+    }
+
+    #classroom, #sauder {
+        height: 10rem;
+        margin: 0rem 2rem 2rem 2rem;
     }
 }
